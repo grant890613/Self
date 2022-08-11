@@ -195,7 +195,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 3em 0;
+			margin: 1em 0;
 		}
 
 	blockquote {
@@ -2142,8 +2142,8 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				border-radius: 40%;
+				width: 150%;
 			}
 
 /* List */
@@ -2443,9 +2443,9 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #dfdfdf;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #49bf9d;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2464,7 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
+			border-color: #bbbbbb;
+			background-color: transparent
 			color: #49bf9d !important;
 		}
 
@@ -2551,6 +2552,86 @@ input, select, textarea {
 			cursor: default;
 		}
 
+		#Recent {
+  			-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: #dfdfdf;
+			border-radius: 0.35em;
+			border: solid 3px #49bf9d;
+			color: #787878 !important;
+			cursor: pointer;
+			display: inline-block;
+			font-weight: 400;
+			height: 3.15em;
+			height: calc(2.75em + 6px);
+			line-height: 2.75em;
+			min-width: 10em;
+			padding: 0 1.5em;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+		#Recent:hover {
+			border-color: #bbbbbb;
+			background-color: transparent
+			color: #49bf9d !important;
+		}
+
+		#Message {
+  			-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: #dfdfdf;
+			border-radius: 0.35em;
+			border: solid 3px #49bf9d;
+			color: #787878 !important;
+			cursor: pointer;
+			display: inline-block;
+			font-weight: 400;
+			height: 3.15em;
+			height: calc(2.75em + 6px);
+			line-height: 2.75em;
+			min-width: 10em;
+			padding: 0 1.5em;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+		#Message:hover {
+			border-color: #bbbbbb;
+			background-color: transparent
+			color: #49bf9d !important;
+		}
+
+		#scrollToTop {
+  			position: fixed;
+  			bottom: 3rem;
+  			right: 3rem;
+  			box-shadow: 0 0 14px -5px rgba(0, 0, 0, 0.5);
+  			border-radius: 100%;
+  			width: 80px;
+  			height: 80px;
+  			display: flex;
+  			font-family: "Arial";
+  			align-items: center;
+  			justify-content: center;
+  			margin-bottom: -12rem;
+  			transition: margin-bottom 0.2s;
+		}
+		#scrollToTop.active {
+  			margin-bottom: 0;
+		}
 /* Work Item */
 
 	.work-item {
@@ -2639,8 +2720,8 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			margin: 0 3em 1em 0;
+			width: 8.25em;
 		}
 
 /* Footer */
